@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\项目\Mes.Model\bin\Debug\Mes.Model.xml
+C:\Users\Administrator\Desktop\项目\Mes.Model\bin\Debug\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\Mes.Model\bin\Debug\Mes.Model.pdb
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Debug\Mes.Model.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Debug\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Debug\Mes.Model.pdb
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Debug\Mes.Model.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\bin\Debug\Mes.Model.xml
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\bin\Debug\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\bin\Debug\Mes.Model.pdb
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\obj\Debug\Mes.Model.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\obj\Debug\Mes.Model.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\obj\Debug\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\MesAPI\Mes.Model\obj\Debug\Mes.Model.pdb

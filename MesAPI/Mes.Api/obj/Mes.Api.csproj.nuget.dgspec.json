@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Api\\Mes.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Api\\Mes.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Api\\Mes.Api.csproj",
+        "projectName": "Mes.Api",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Api\\Mes.Api.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Services\\Mes.Services.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Services\\Mes.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Autofac.Owin": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Autofac.WebApi2": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Autofac.WebApi2.Owin": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "AutofacSerilogIntegration": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNet.WebApi": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Owin": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.WebHost": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Owin.Cors": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Owin.Host.SystemWeb": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Owin.Security": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Owin.Security.Jwt": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Owin": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "Serilog.Settings.AppSettings": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SerilogWeb.Classic": {
+              "target": "Package",
+              "version": "[5.0.61, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Thinktecture.IdentityModel.Owin": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Thinktecture.IdentityModel.WebApi": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj",
+        "projectName": "Mes.IServices",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj",
+        "projectName": "Mes.Model",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Services\\Mes.Services.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Services\\Mes.Services.csproj",
+        "projectName": "Mes.Services",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Services\\Mes.Services.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.IServices\\Mes.IServices.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\项目\\MesAPI\\Mes.Model\\Mes.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

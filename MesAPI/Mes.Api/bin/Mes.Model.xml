@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mes.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Mes.Model.Page.ResponseResult`1">
+            <summary>
+            接口输出结果实体
+            </summary>
+            <typeparam name="T">数据类型</typeparam>
+        </member>
+        <member name="P:Mes.Model.Page.ResponseResult`1.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:Mes.Model.Page.ResponseResult`1.Message">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:Mes.Model.Page.ResponseResult`1.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:Mes.Model.Page.ResponseResult`1.Total">
+            <summary>
+            总条数
+            </summary>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.#ctor">
+            <summary>
+            ctor
+            </summary>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.#ctor(System.Int32,System.String,`0)">
+            <summary>
+            ctor
+            </summary>
+            <param name="code">状态码</param>
+            <param name="message">消息</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.Success">
+            <summary>
+            操作成功
+            </summary>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.Success(System.String)">
+            <summary>
+            操作成功
+            </summary>
+            <param name="message">消息</param>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.Success(`0,System.String)">
+            <summary>
+            操作成功
+            </summary>
+            <param name="data">数据</param>
+            <param name="message">消息</param>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.Success(`0,System.Int32,System.String)">
+            <summary>
+            操作成功，分页数据
+            </summary>
+            <param name="data"></param>
+            <param name="total"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.Fail">
+            <summary>
+            操作失败
+            </summary>
+        </member>
+        <member name="M:Mes.Model.Page.ResponseResult`1.Fail(System.String)">
+            <summary>
+            操作失败
+            </summary>
+            <param name="message">消息</param>
+        </member>
+    </members>
+</doc>

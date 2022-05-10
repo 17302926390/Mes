@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mes.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Mes.Api.AutofacConfig">
+            <summary>
+            Represent Autofac configuration.
+            </summary>
+        </member>
+        <member name="F:Mes.Api.AutofacConfig.Container">
+            <summary>
+            Configured instance of <see cref="T:Autofac.IContainer"/>
+            <remarks><see cref="M:Mes.Api.AutofacConfig.Configure(System.Web.Http.HttpConfiguration)"/> must be called before trying to get Container instance.</remarks>
+            </summary>
+        </member>
+        <member name="M:Mes.Api.AutofacConfig.Configure(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Initializes and configures instance of <see cref="T:Autofac.IContainer"/>.
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:Mes.Api.CorsConfig">
+            <summary>
+            Represents CORS configuration.
+            </summary>
+            <remarks>For more information see https://github.com/drwatson1/AspNet-WebApi/wiki#cross-origin-resource-sharing-cors</remarks>
+        </member>
+        <member name="M:Mes.Api.CorsConfig.ConfigureCors(System.String)">
+            <summary>
+            Initializes and configures <see cref="T:Microsoft.Owin.Cors.CorsOptions"/> instance.
+            </summary>
+            <param name="origins">String of allowed origins delimited by: ';'</param>
+        </member>
+        <member name="T:Mes.Api.FormatterConfig">
+            <summary>
+            Represents formatter configuration.
+            </summary>
+        </member>
+        <member name="M:Mes.Api.FormatterConfig.Configure(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Configures formatter to use JSON and removes XML formatter.
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:Mes.Api.App_Start.SwaggerControllerDescProvider">
+            <summary>
+            显示swagger控制器的描述
+            </summary>
+        </member>
+        <member name="M:Mes.Api.App_Start.SwaggerControllerDescProvider.#ctor(Swashbuckle.Swagger.ISwaggerProvider,System.String)">
+            <summary>
+            </summary>
+            <param name="swaggerProvider">
+            </param>
+            <param name="xml">
+            xml文档路径
+            </param>
+        </member>
+        <member name="M:Mes.Api.App_Start.SwaggerControllerDescProvider.GetSwagger(System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="rootUrl"></param>
+             <param name="apiVersion"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Mes.Api.App_Start.SwaggerControllerDescProvider.GetControllerDesc">
+            <summary>
+            从API文档中读取控制器描述
+            </summary>
+            <returns>
+            所有控制器描述
+            </returns>
+        </member>
+        <member name="T:Mes.Api.Controllers.AnnounCementController">
+            <summary>
+            公告
+            </summary>
+        </member>
+        <member name="M:Mes.Api.Controllers.AnnounCementController.addAsync(Mes.Model.ANNOUNCEMENTDTO)">
+            <summary>
+            添加公告
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.AnnounCementController.UpdateAsync(Mes.Model.ANNOUNCEMENTDTO)">
+            <summary>
+            修改公告
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.AnnounCementController.GetModelAsync(System.String)">
+            <summary>
+            获取实体类
+            </summary>
+            <param name="ANNOUNCEMENTNO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.AnnounCementController.DeleteAsync(System.String)">
+            <summary>
+            删除公告
+            </summary>
+            <param name="ANNOUNCEMENTNO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.AnnounCementController.GetListAsync">
+            <summary>
+            查询所有公告
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.AnnounCementController.GetListPageAsync(System.Int32,System.Int32)">
+            <summary>
+            公告分页列表
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.BaseApiController.BuildResult``1(System.Boolean,``0,System.Int32,System.String)">
+            <summary>
+            构建操作结果
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.BaseApiController.Success``1(``0,System.Int32,System.String)">
+            <summary>
+            操作成功
+            </summary>
+            <param name="data"></param>
+            <param name="total"></param>
+            <param name="msg"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.BaseApiController.Fail(System.String)">
+            <summary>
+            操作失败
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Mes.Api.Controllers.LoginController">
+            <summary>
+            管理员
+            </summary>
+        </member>
+        <member name="M:Mes.Api.Controllers.LoginController.addAsync(Mes.Model.ADMINISTRATORDTO)">
+            <summary>
+            添加管理员
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.LoginController.UpdateAsync(Mes.Model.ADMINISTRATORDTO)">
+            <summary>
+            修改管理员
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.LoginController.GetModelAsync(System.String)">
+            <summary>
+            获取实体类
+            </summary>
+            <param name="ADMINISTRATORNO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.LoginController.DeleteAsync(System.String)">
+            <summary>
+            删除实体类
+            </summary>
+            <param name="ADMINISTRATORNO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.LoginController.GetListAsync">
+            <summary>
+            查询所有管理员
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.LoginController.GetListPageAsync(System.Int32,System.Int32)">
+            <summary>
+            管理员分页列表
+            </summary>
+            <param name="current"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Mes.Api.Controllers.StudentController">
+            <summary>
+            学生
+            </summary>
+        </member>
+        <member name="M:Mes.Api.Controllers.StudentController.addAsync(Mes.Model.STUDENTDTO)">
+            <summary>
+            添加学生
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.StudentController.UpdateAsync(Mes.Model.STUDENTDTO)">
+            <summary>
+            修改学生
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.StudentController.GetModelAsync(System.String)">
+            <summary>
+            获取实体类
+            </summary>
+            <param name="STUDENTNO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.StudentController.DeleteAsync(System.String)">
+            <summary>
+            删除实体类
+            </summary>
+            <param name="STUDENTNO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.StudentController.GetListAsync">
+            <summary>
+            查询所有学生
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mes.Api.Controllers.StudentController.GetListPageAsync(System.Int32,System.Int32)">
+            <summary>
+            学生分页列表
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Mes.Api.OptionsHttpMessageHandler">
+            <summary>
+            OPTIONS HTTP query handler
+            </summary>
+            <remarks>The code based on this answer https://stackoverflow.com/a/36454275/8127016</remarks>
+        </member>
+        <member name="T:Mes.Api.Settings">
+            <summary>
+            Represents all application settings
+            </summary>
+        </member>
+        <member name="M:Mes.Api.Settings.Get(System.String)">
+            <summary>
+            Get value from appSettings section of web.config and expand environmemt variables
+            </summary>
+            <param name="name">Key name</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\项目\Mes.Model\bin\Release\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\Mes.Model\bin\Release\Mes.Model.pdb
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Release\Mes.Model.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Release\Mes.Model.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Release\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\Mes.Model\obj\Release\Mes.Model.pdb

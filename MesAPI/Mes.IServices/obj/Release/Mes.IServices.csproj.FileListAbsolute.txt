@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\项目\Mes.IServices\bin\Release\Mes.IServices.dll
+C:\Users\Administrator\Desktop\项目\Mes.IServices\bin\Release\Mes.IServices.pdb
+C:\Users\Administrator\Desktop\项目\Mes.IServices\bin\Release\Mes.Model.dll
+C:\Users\Administrator\Desktop\项目\Mes.IServices\bin\Release\Mes.Model.pdb
+C:\Users\Administrator\Desktop\项目\Mes.IServices\obj\Release\Mes.IServices.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\项目\Mes.IServices\obj\Release\Mes.IServices.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\项目\Mes.IServices\obj\Release\Mes.IServices.csproj.CopyComplete
+C:\Users\Administrator\Desktop\项目\Mes.IServices\obj\Release\Mes.IServices.dll
+C:\Users\Administrator\Desktop\项目\Mes.IServices\obj\Release\Mes.IServices.pdb
